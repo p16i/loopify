@@ -1,9 +1,11 @@
 <div align="center">
 <img src="https://i.imgur.com/bojrMT1.png" width="300px">
 <br>
-</div>
-
+<br>
+<span>
 Loopify is a MacOS application that allows you to repeatedly play a certain part of any song on Spotify. It is good for practicing.
+</span>
+</div>
 
 <div align="center">
 <img src="https://i.imgur.com/aSUuBRx.png" width="700px">
