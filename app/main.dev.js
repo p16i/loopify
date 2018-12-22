@@ -69,7 +69,7 @@ app.on('ready', async () => {
 
   mainWindow = new BrowserWindow({
     show: false,
-    width: 1024,
+    width: 600,
     height: 728
   });
 
@@ -100,3 +100,7 @@ app.on('ready', async () => {
   // eslint-disable-next-line
   new AppUpdater();
 });
+
+// app.on('click', (x) => {
+//   exec('');
+// });

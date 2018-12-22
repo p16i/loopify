@@ -1,14 +1,132 @@
+.clear {
+  clear: both;
+}
+
 .container {
   position: absolute;
-  top: 30%;
-  left: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.logoContainer {
   text-align: center;
 }
 
-.container h2 {
-  font-size: 5rem;
+.logo {
+  margin: 10px 0;
+  height: 70px;
 }
 
 .container a {
   font-size: 1.4rem;
+}
+
+.container ul {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.songList {
+  padding: 0;
+}
+
+.song {
+  position: relative;
+  text-align: left;
+  border: 1px solid;
+  padding: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.song_title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.song_tag {
+  top: 5px;
+  right: 5px;
+  position: absolute;
+}
+
+.song_time {
+  position: absolute;
+  float: right;
+  bottom: 5px;
+  right: 5px;
+}
+
+.mainAddButton {
+  border-radius: 50%;
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  display: inline-block;
+  float: right;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+}
+
+.input_track_label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.input_track_label i {
+  float: right;
+  color: #777;
+}
+
+.input_form input {
+  display: block;
+  padding: 2%;
+  width: 95%;
+}
+
+.footer {
+  text-align: center;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  font-size: 0.8em;
+}
+
+.editingTitle {
+  border-bottom: 1px dashed white;
+}
+
+.modalTitle {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.modalButtons {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.modalButton {
+  float: right;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: white solid 1px;
+  margin-left: 5px;
+}
+
+.modalTip {
+  text-align: right;
+  margin-top: 20px;
 }
